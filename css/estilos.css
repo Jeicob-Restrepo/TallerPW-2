@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, Helvetica;
+    background-color: rgb(162, 162, 216);
+}
+
+.menu{
+    border-radius: 50px;
+    list-style: none;
+    padding: 0;
+    background-color: rgb(114, 89, 136);
+}
+
+.menu > li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu > li > a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+.menu > li > a:hover{
+    background: rgb(78, 56, 97);
+    border-radius: 50px;
+}
