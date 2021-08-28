@@ -27,6 +27,10 @@ body{
     border-radius: 50px;
 }
 
+.container{
+    min-height: calc(100vh);
+}
+
 .footer-body{
     background: rgb(114, 89, 136);
     color: white;
