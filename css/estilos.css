@@ -31,6 +31,22 @@ body{
     min-height: calc(100vh);
 }
 
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}
+
+.items > div{
+    background: rgb(230, 227, 224);
+    border-radius: 10px;
+    font-size: 90%;
+}
+
+.items > div:hover{
+    background: rgb(133, 133, 184);
+}
+
 .footer-body{
     background: rgb(114, 89, 136);
     color: white;
