@@ -18,7 +18,7 @@ h2{
     border-radius: 10px;
 }
 .icono {
-    width: 300px;
+    width: 400px;
     height: 215px;
     text-align: center;
     background-color: crimson;
@@ -26,7 +26,7 @@ h2{
     display:block;
     margin-left: auto;
     margin-right: auto;
-    text-decoration-color: darkgray;
+    text-decoration-color: none;
     border-style: groove;
     border-color: black;
 }
@@ -35,16 +35,21 @@ h2{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(105, 89, 23);
-    text-decoration-color: crimson;
+    background-color: blueviolet;
+    text-decoration-color: none;
     font-style: normal;
     padding: 10px 20px 10px 20px;
     border-style: groove;
     border-radius: 10px;
     border-color: black;
+    transition: width 1s;
+}
+.index-producto:hover{
+    width: 900px;
+    transition: width 1s;
 }
 .div-index-productop{
-    background-color: blanchedalmond;
+    background-color: blueviolet;
     color: black;
     padding: 5px;
     text-align: right;
@@ -64,22 +69,30 @@ h2{
     font-size: 110%;
     margin: 2px 10px 5px;
     border-radius: 10px;
+    color: black;
+    background-color: blanchedalmond;
+    font-weight: 500;
+    transition: width 1s;
 }
 .index-fcontacto{
     width: 800px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(158, 13, 44);
-    text-decoration-color: rgb(146, 41, 62);
+    background-color: blueviolet;
+    text-decoration-color: none;
     font-style: normal;
     padding: 10px 20px 10px 20px;
     border-radius: 10px;
     border-color: black;
     border-style: groove;
 }
+.index-fcontacto:hover{
+    width: 900px;
+    transition: width 1s;
+}
 .div-index-fcontactop{
-    background-color: blanchedalmond;
+    background-color: blueviolet;
     color: black;
     padding: 5px;
     text-align: left;
@@ -99,5 +112,32 @@ h2{
     font-size: 110%;
     margin: 2px 10px 5px;
     border-radius: 10px;
-    border-style: groove;
+    color: black;
+    background-color: blanchedalmond;
+    font-weight: 500;
+}
+.div-index-productop p{
+    background-color: rgba(68, 99, 155, 0.308);
+    font-size: 20px;
+    color: blanchedalmond;
+}
+
+.div-index-fcontactop p{
+    background-color: rgba(68, 99, 155, 0.308);
+    font-size: 20px;
+    color: blanchedalmond;
+}
+
+.div-index-productop > input:hover{
+    background-color: rgba(68, 99, 155, 0.747);
+    color: blanchedalmond;
+    width: calc(100%+10px);
+    transition: background-color  0.5s, color 0.5s, width 0.5s;
+}
+
+.div-index-fcontactop > input:hover{
+    background-color: rgba(68, 99, 155, 0.747);
+    color: blanchedalmond;
+    width: calc(100%+10px);
+    transition: background-color  0.5s, color 0.5s, width 0.5s;
 }
