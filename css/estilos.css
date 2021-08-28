@@ -28,23 +28,25 @@ body{
 }
 
 .container{
-    min-height: calc(100vh);
+    min-height: 100px;
 }
 
 .items{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1em;
+    padding: 0px;
 }
 
 .items > div{
+    height: min-content;
     background: rgb(230, 227, 224);
     border-radius: 10px;
-    font-size: 90%;
 }
 
 .items > div:hover{
     background: rgb(133, 133, 184);
+    transition: background 1s;
 }
 
 .footer-body{
@@ -97,6 +99,18 @@ body{
 
 .imgi{
     border-radius: 10px;
+    max-height: 50%;
+}
+
+.productos{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+    font-size: 200%;
 }
 
 .footer{
