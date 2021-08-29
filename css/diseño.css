@@ -21,7 +21,7 @@ h2{
     padding-right: 20px;
     border-radius: 10px;
     height: 33.3%;
-    background: url(/TallerPW-2/img/img-index.jpg);
+    background: url("../img/img-index.jpg");
 }
 .icono {
     color: blanchedalmond;
@@ -106,6 +106,7 @@ h2{
     background-color: blanchedalmond;
     font-weight: 500;
     transition: background-color  0.7s, color 0.7s, width 0.7s;
+    
 }
 .div-index-productop p{
     background-color: rgba(114, 151, 219, 0.308);
@@ -118,6 +119,7 @@ h2{
     color: blanchedalmond;
     width: calc(100%+10px);
     transition: background-color  0.5s, color 0.5s, width 0.5s;
+    cursor: pointer;
 }
 
 
@@ -193,6 +195,7 @@ h2{
     color: blanchedalmond;
     width: calc(100%+10px);
     transition: background-color  0.5s, color 0.5s, width 0.5s;
+    cursor: pointer;
 }
 
 /* para la barra de informacion*/
