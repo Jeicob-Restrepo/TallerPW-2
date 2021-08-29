@@ -106,7 +106,6 @@ h2{
     background-color: blanchedalmond;
     font-weight: 500;
     transition: background-color  0.7s, color 0.7s, width 0.7s;
-    
 }
 .div-index-productop p{
     background-color: rgba(114, 151, 219, 0.308);
@@ -253,6 +252,7 @@ h2{
 /* para el sidebar */
 
 .sidebar{
+    margin-top: 4.5%;
     width: 18.2%;
     position: fixed;
     left: 0px;
@@ -291,7 +291,6 @@ h2{
     height: 50px;
     padding-top: 5px;
     color: blanchedalmond;
-    
 }
 
 .div-sidebar-contenido > li:hover{
