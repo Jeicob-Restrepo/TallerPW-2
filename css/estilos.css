@@ -28,7 +28,7 @@ body{
 }
 
 .container{
-    min-height: 100px;
+    min-height: calc(100vh);
 }
 
 .items{
@@ -113,6 +113,67 @@ body{
     font-size: 200%;
 }
 
+.formulario{
+    padding: 50px;
+    text-align: center;
+}
+
+.login{
+    background: rgb(133, 133, 184);
+    margin-top: 10%;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.login > h1{
+    color: rgb(48, 45, 51);
+    font-size: 200%;
+}
+
+input[type = "text"],input[type = "password"]{
+    font-size: 105%;
+    width: 80%;
+    padding: 1%;
+    border: 2px solid rgb(114, 89, 136);
+    border-radius: 5px;
+}
+
+
+
+.login-input{
+    margin-bottom: 2%;
+    padding: 10px;
+}
+
+.login-input > p{
+    color: rgb(48, 45, 51);
+}
+
+.login-input > p > a{
+    text-decoration: none;
+    color: rgb(48, 45, 51);
+    font-weight: 600;
+}
+
+.login-input > p > a:hover{
+    color: rgb(78, 56, 97);
+}
+
+.button{
+    border: none;
+    background: rgb(78, 56, 97);
+    color: white;
+    border-radius: 5px;
+    font-size: 150%;
+    width: 82%;
+    padding: 3%;
+    cursor: pointer;
+}
+
+.button:hover{
+    background: rgb(48, 45, 51);
+}
+
 .footer{
     height: 100px;
 }
@@ -126,4 +187,11 @@ body{
 .copyrigth > a{
     text-decoration: none;
     color:white;
+}
+
+@media(min-width:768px){
+    .formulario{
+        margin: auto;
+        width: 400px;
+    }
 }
