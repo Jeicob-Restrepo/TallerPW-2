@@ -1,0 +1,316 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin:0;
+}
+h2{
+    font-size: 200%;
+}
+/* para el icono */
+
+.contenedor-icono{
+    top: 0px;
+    width: 78%;
+    right: 0px;
+    display: block;
+    border: black;
+    border-style: groove;
+    margin-left: auto;
+    margin-right: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    height: 33.3%;
+    background: url("../img/img-index.jpg");
+}
+.icono {
+    color: blanchedalmond;
+    width: 400px;
+    height: 215px;
+    text-align: center;
+    background-color: #060930;
+    font-size: 150%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration-color: none;
+    border-style: groove;
+    border-color: black;
+    border-radius: 10px;
+    transition: width 1s;
+}
+.icono h1{
+    background: #333456;
+    margin: 5% 7% 5% 7%;
+    border-radius: 10px;
+}
+.contenedor-icono > div:hover{
+    width: 600px;
+    transition: width 1s;
+}
+
+
+/* para la barra de productos */
+
+.index-producto{
+    width: 78%;
+    height: 33.3%;
+    display: block;
+    margin-left: auto;
+    margin-right: 0px;
+    background-color: blueviolet;
+    text-decoration-color: none;
+    font-style: normal;
+    padding: 10px 20px 10px 20px;
+    border-style: groove;
+    border-radius: 10px;
+    border-color: black;
+    transition: width 1s;
+    z-index: 2;
+    position: relative;
+}
+.index-producto:hover{
+    width: 84%;
+    transition: width 1s;
+}
+.div-index-productop{
+    background-color: blueviolet;
+    color: black;
+    padding: 5px;
+    text-align: right;
+}
+.div-index-productop p{
+    border-radius: 20px;
+}
+.div-index-productot{
+    font-size: 25px;
+    display: block;
+    text-align: left;
+    height: 100px;
+    background-color: blueviolet;
+    margin-top: 0px;
+}
+
+.div-index-productot h2{
+    background: rgba(44, 3, 82, 0.322);
+    border-radius: 10px;
+}
+
+.div-index-productop input{
+    height: 40px;
+    width: max-content;
+    font-size: 110%;
+    margin: 2px 10px 5px;
+    border-radius: 10px;
+    color: black;
+    background-color: blanchedalmond;
+    font-weight: 500;
+    transition: background-color  0.7s, color 0.7s, width 0.7s;
+    
+}
+.div-index-productop p{
+    background-color: rgba(114, 151, 219, 0.308);
+    font-size: 20px;
+    color: blanchedalmond;
+}
+
+.div-index-productop > input:hover{
+    background-color: rgba(68, 99, 155, 0.747);
+    color: blanchedalmond;
+    width: calc(100%+10px);
+    transition: background-color  0.5s, color 0.5s, width 0.5s;
+    cursor: pointer;
+}
+
+
+
+/* para la barra de contactos */
+
+.index-fcontacto{
+    width: 78%;
+    height: 33.3%;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    background-color: blueviolet;
+    text-decoration-color: none;
+    font-style: normal;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: groove;
+    z-index: 2;
+    position: relative;
+    transition: width 1s;
+}
+.index-fcontacto:hover{
+    width: 84%;
+    transition: width 1s;
+}
+.div-index-fcontactop{
+    background-color: blueviolet;
+    color: black;
+    padding: 5px;
+    text-align: left;
+}
+
+.div-index-fcontactot{
+    font-size: 150%;
+    display: block;
+    text-align: right;
+    height: 80px;
+    padding-top: none;
+    background-color: rgb(138, 43, 226);
+    margin-top: 0px;
+}
+
+.div-index-fcontactot h2{
+    background: rgba(44, 3, 82, 0.322);
+    border-radius: 10px;
+}
+
+
+.div-index-fcontactop input{
+    height: 40px;
+    width: max-content;
+    font-size: 110%;
+    margin: 2px 10px 5px;
+    border-radius: 10px;
+    color: black;
+    background-color: blanchedalmond;
+    font-weight: 500;
+    transition: background-color 0.7s, color 0.7s;
+}
+
+.div-index-fcontactop p{
+    background-color: rgba(114, 151, 219, 0.308);
+    font-size: 20px;
+    color: blanchedalmond;
+    border-radius: 10px;
+}
+
+
+.div-index-fcontactop > input:hover{
+    background-color: rgba(68, 99, 155, 0.747);
+    color: blanchedalmond;
+    width: calc(100%+10px);
+    transition: background-color  0.5s, color 0.5s, width 0.5s;
+    cursor: pointer;
+}
+
+/* para la barra de informacion*/
+
+.index-acerca{
+    width: 78%;
+    height: 33.3%;
+    display: block;
+    margin-left: auto;
+    margin-right: 0px;
+    background-color: blueviolet;
+    text-decoration-color: none;
+    font-style: normal;
+    padding: 10px 20px 10px 20px;
+    border-style: groove;
+    border-radius: 10px;
+    border-color: black;
+    transition: width 1s;
+    z-index: 2;
+    position: relative;
+}
+.index-acerca:hover{
+    width: 84%;
+    transition: width 1s;
+}
+
+.div-index-acercap{
+    background-color: blueviolet;
+    color: black;
+    padding: 5px;
+    text-align: right;
+}
+.div-index-acercap p{
+    border-radius: 20px;
+}
+.div-index-acercat{
+    font-size: 25px;
+    display: block;
+    text-align: left;
+    height: 100px;
+    background-color: blueviolet;
+    margin-top: 0px;
+}
+
+.div-index-acercat h2{
+    background: rgba(44, 3, 82, 0.322);
+    border-radius: 10px;
+}
+
+.div-index-acercap p{
+    background-color: rgba(114, 151, 219, 0.308);
+    font-size: 20px;
+    color: blanchedalmond;
+}
+/* para el sidebar */
+
+.sidebar{
+    width: 18.2%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background: rgb(51, 58, 153);
+    height: 100%;
+    border-color: black;
+    border-radius: 20px;
+    border-style: groove;
+}
+.sidebar .sidebar-contenido{
+    color: blanchedalmond;
+    font-size: 25px;
+    height: 40px;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 15px;
+    border-bottom: 2px solid rgb(4, 161, 167);
+    background-color: rgba(44, 3, 82, 0.322);
+}
+
+.div-sidebar-contenido{
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    font-size: 22px;
+}
+
+.div-sidebar-contenido li{
+    box-sizing: border-box;
+    padding-left:10px;
+    padding-top: 0px;
+    list-style-type: none;
+    user-select: none;
+    border-bottom:1px solid rgb(4, 161, 167);
+    height: 50px;
+    padding-top: 5px;
+    color: blanchedalmond;
+    
+}
+
+.div-sidebar-contenido > li:hover{
+    background-color: rgb(80, 91, 245);
+    color: darkblue;
+    transition: background-color 1s, color 1s;
+}
+
+.div-sidebar-contenido li a:link, a:visited, a:active{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+nav ul li a{
+    display: block;
+}
+
+nav ul li a:hover{
+    background: rgb(136, 142, 233);
+    color: rgb(25, 25, 97);
+    border-radius: 5px;
+    transition: background 0.7s, color 0.7s;
+}
